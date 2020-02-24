@@ -1,0 +1,286 @@
+
+.navbar {
+    background:rgb(113, 116, 112);              
+}
+.body {
+  line-height: 2.7;
+  color: gray;
+  font-weight: 600;
+  font-size: 1.3rem;
+  font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.navbar-nav{
+    color: rgb(131, 74, 4);
+}
+
+body {font-family: Arial, Helvetica, sans-serif;}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: 21.5rem;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #4CAF50;
+  color: #043596;
+  background-color: #4CAF50;
+  color: #043596;
+  padding: 10px 25px;
+  margin: -21px 13px;
+    cursor: pointer;
+    box-shadow: #878;
+    text-shadow: #888;
+    width: auto;
+
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: auto;
+  
+  
+  padding: 10px 18px;
+  background-color: #333131;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.avatar {
+  width: 5%;
+  border-radius: 60%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 500px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 50%;
+  }
+}
+
+.centerdata{
+  background: rgb(17, 12, 12);
+  text-align: center;
+  
+
+}
+.nav navbar-nav navbar-right {
+  background-color: #4CAF50;
+  color: white;
+  padding: 15px 24px;
+  margin: 8px 5px;
+  /* border: none; */
+  cursor: pointer;
+  box-shadow: #888;
+  text-shadow: #888;
+  width: auto;
+}
+.form-control {
+  display: block;
+  width: 61%;
+  height: calc(1.5em + .75rem + 2px);
+  padding: 1.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #000204;
+  border-radius: 0.25rem;
+}
+.form-inline {
+  display: -ms-flexbox;
+  display: contents;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -ms-flex-align: center;
+  align-items: right;
+}
+header {
+  position: relative;
+  background-color: black;
+  height: 75vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+@media (pointer: coarse) and (hover: none) {
+  header {
+    background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+  }
+  header video {
+    display: none;
+  }
+}
+
+* {
+  -webkit-border-radius: 1px !important;
+     -moz-border-radius: 1px !important;
+          border-radius: 1px !important;
+}
+#logo {
+color: #666;
+width:100%;   
+}
+#logo h1 {
+    font-size: 60px;
+    text-shadow: 1px 2px 3px #999;
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    letter-spacing: -1px;
+}
+#logo p{
+  padding-bottom: 20px;
+}
+
+
+#form-buscar >.form-group >.input-group > .form-control {
+    height: 40px;
+}
+#form-buscar >.form-group >.input-group > .input-group-btn > .btn{
+        height: 40px; 
+        font-size: 16px;
+        font-weight: 300; 
+         
+       
+}
+#form-buscar >.form-group >.input-group > .input-group-btn > .btn .glyphicon{
+ margin-right:12px;   
+}    
+
+
+#form-buscar >.form-group >.input-group > .form-control {
+    font-size: 16px;
+    font-weight: 300;
+   
+}
+
+#form-buscar >.form-group >.input-group > .form-control:focus {
+  border-color: #33A444;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 1px rgba(0, 109, 0, 0.8);
+          box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 1px rgba(0, 109, 0, 0.8);
+}
+.wrapper {
+  text-align: center;
+}
+
+.button {
+  position: absolute;
+  top: 50%;
+}

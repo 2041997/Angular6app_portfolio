@@ -1,0 +1,32 @@
+.form-control {
+    height: 47px;
+    background: #e9e3e3;
+    border-radius: 0;
+    border: 1px solid #f6f6f6; }
+    .form-control:active, .form-control:focus {
+      border-color: #007bff; }
+    .form-control:hover, .form-control:active, .form-control:focus {
+      -webkit-box-shadow: none !important;
+      box-shadow: none !important; }
+
+.form-subscribe .form-control {
+    border-color: #888888 !important;
+    background: #4d4d4d !important; }
+    .form-subscribe .form-control:active, .form-subscribe .form-control:focus {
+      border-color: gray !important; }
+    .form-subscribe .form-control::-webkit-input-placeholder {
+      /* Chrome/Opera/Safari */
+      color: rgb(156, 155, 155);
+      font-style: italic; }
+    .form-subscribe .form-control::-moz-placeholder {
+      /* Firefox 19+ */
+      color: #ccc;
+      font-style: italic; }
+    .form-subscribe .form-control:-ms-input-placeholder {
+      /* IE 10+ */
+      color: #ccc;
+      font-style: italic; }
+    .form-subscribe .form-control:-moz-placeholder {
+      /* Firefox 18- */
+      color: #ccc;
+      font-style: italic; }
